@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd4172f5-d49e-4cfb-bca3-3474ae3b1b80" name="Default" comment="good">
+    <list default="true" id="bd4172f5-d49e-4cfb-bca3-3474ae3b1b80" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ATOI/Solution.java" afterPath="$PROJECT_DIR$/ATOI/Solution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="leetcode.iws" />
@@ -50,15 +51,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CountUnivalueSubtrees/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33951497" vertical-offset="68" max-vertical-offset="1258">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
-                <element signature="e#1556#1557#0" expanded="true" />
-                <element signature="e#1587#1588#0" expanded="true" />
+                <element signature="e#1555#1556#0" expanded="true" />
+                <element signature="e#1586#1587#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ATOI/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4122682" vertical-offset="17" max-vertical-offset="1054">
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/IsomorphicStrings/Solution.java" />
         <option value="$PROJECT_DIR$/BinaryTreePaths/Solution.java" />
         <option value="$PROJECT_DIR$/SummaryRanges/Solution.java" />
         <option value="$PROJECT_DIR$/ProductOfArrayExceptSelf/Solution.java" />
@@ -136,6 +146,7 @@
         <option value="$PROJECT_DIR$/AddDigits/Solution.java" />
         <option value="$PROJECT_DIR$/CourseScheduleTwo/Solution.java" />
         <option value="$PROJECT_DIR$/CountUnivalueSubtrees/Solution.java" />
+        <option value="$PROJECT_DIR$/ATOI/Solution.java" />
       </list>
     </option>
   </component>
@@ -972,6 +983,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="ATOI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="AddDigits" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1429,7 +1454,7 @@
       <workItem from="1441640534771" duration="15000" />
       <workItem from="1441642522115" duration="16851000" />
       <workItem from="1443366337554" duration="1943000" />
-      <workItem from="1445097340552" duration="3572000" />
+      <workItem from="1445097340552" duration="3794000" />
     </task>
     <task id="LOCAL-00065" summary="divide and conquer">
       <created>1439658952303</created>
@@ -1749,11 +1774,17 @@
       <option name="project" value="LOCAL" />
       <updated>1445104090479</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="good">
+      <created>1445799811456</created>
+      <option name="number" value="00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1445799811456</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154852000" />
+    <option name="totallyTimeSpent" value="155074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1855,13 +1886,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PopulatingNextRightPointersInEachNodeII/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UglyNumber/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -2220,12 +2244,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CountUnivalueSubtrees/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33951497" vertical-offset="68" max-vertical-offset="1258">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
-            <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1586#1587#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ATOI/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4122682" vertical-offset="17" max-vertical-offset="1054">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
