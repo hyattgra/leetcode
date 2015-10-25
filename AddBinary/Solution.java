@@ -13,7 +13,6 @@ public class Solution {
             carry = total > 1 ? 1 : 0;
         }
 
-
         return carry == 1 ? sb.insert(0, 1).toString() : sb.toString();
     }
 }
