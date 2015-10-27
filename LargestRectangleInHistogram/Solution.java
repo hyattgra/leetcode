@@ -17,18 +17,21 @@ public class Solution {
             return 0;
         }
 
-        Stack<Integer> stack = new Stack<>();
-        int max = 0;
-        for (int i = 0; i <= height.length; i++) {
-            int curt = (i == height.length) ? -1 : height[i];
-            while (!stack.isEmpty() && curt <= height[stack.peek()]) {
-                int h = height[stack.pop()];
-                int w = stack.isEmpty() ? i : i - stack.peek() - 1;
-                max = Math.max(max, h * w);
-            }
-            stack.push(i);
-        }
+        int ret = 0;
+        int[] h = Arrays.copyOf(height, height.length + 1);
 
-        return max;
+        Stack<Integer> stack = new Stack<>();
+        int i = 0;
+        while (i < h.length) {
+            if(stack.isEmpty() || h[stack.peek()] <= h[i]){
+                stack.push(i);
+                i++;
+            }else{
+                int index = stack.pop();
+                int width = stack.isEmpty()? i : i -stack.peek()-1;
+                ret = Math.max(ret, h[index] * width);
+            }
+        }
+        return ret;
     }
 }
