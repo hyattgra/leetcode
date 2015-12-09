@@ -16,7 +16,7 @@ public class Solution {
                 secrets[secret.charAt(i) - '0']++;
                 guesses[guess.charAt(i) - '0']++;
             }
-        }
+        }//
 
         for (int i = 0; i < secrets.length; i++) {
             cows += guesses[i] >= secrets[i] ? secrets[i] : guesses[i];
