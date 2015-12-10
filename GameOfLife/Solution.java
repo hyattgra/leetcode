@@ -14,6 +14,8 @@ public class Solution {
                 int lives = getLives(board, m, n, i, j);
 
                 // for other conditions, just retain the board's original states
+                // like live, and neighbors < 2 or >3;
+                // dead, and neighbors except ==3
                 if ((board[i][j] & 1) == 1 && (lives >= 2 && lives <= 3)) {
                     board[i][j] = 3;
                 }
