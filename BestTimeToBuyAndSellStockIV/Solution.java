@@ -22,22 +22,37 @@ public class Solution {
             return ret;
         }
 
+        // Solution 1:
         int lastIsSelling[] = new int[k + 1];
         int lastIsBuying[] = new int[k + 1];
 
         for (int i = 0; i < k + 1; i++) {
             lastIsBuying[i] = Integer.MIN_VALUE;
-            lastIsSelling[i] = 0;
         }
 
         for (int i = 0; i < prices.length; i++) {
-            for (int j = k; j > 0; j--) {
-                lastIsSelling[j] = Math.max(lastIsSelling[j], lastIsBuying[j] + prices[i]);
-                lastIsBuying[j] = Math.max(lastIsBuying[j], lastIsSelling[j - 1] - prices[i]);
-
+            for (int j = 0; j < k; j++) {
+                lastIsSelling[j + 1] = Math.max(lastIsSelling[j + 1], lastIsBuying[j + 1] + prices[i]);
+                lastIsBuying[j + 1] = Math.max(lastIsBuying[j + 1], lastIsSelling[j] - prices[i]);
             }
         }
 
         return lastIsSelling[k];
+
+        // Solution 2:
+//        int[][] local = new int[prices.length][k + 1];
+//        int[][] global = new int[prices.length][k + 1];
+//
+//        for (int i = 1; i < prices.length; i++) {
+//            int diff = prices[i] - prices[i - 1];
+//            for (int j = 1; j <= k; j++) {
+//                local[i][j] = Math.max(
+//                        global[i - 1][j - 1] + Math.max(diff, 0),
+//                        local[i - 1][j] + diff);
+//                global[i][j] = Math.max(global[i - 1][j], local[i][j]);
+//            }
+//        }
+//
+//        return global[prices.length - 1][k];
     }
 }
