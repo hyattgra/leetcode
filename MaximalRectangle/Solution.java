@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * Created by Alan on 9/27/2015.
  */
-public class Solution {
+public class Solution {   
 
     public int maximalRectangle(char[][] matrix) {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
