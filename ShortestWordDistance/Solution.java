@@ -15,7 +15,7 @@ public class Solution {
                     ret = Math.min(ret, i - index2);
                 }
             } else if (words[i].equals(word2)) {
-                index2 = 2;
+                index2 = i;
                 if (index1 != -1) {
                     ret = Math.min(ret, i - index1);
                 }
