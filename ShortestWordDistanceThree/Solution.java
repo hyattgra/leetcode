@@ -1,4 +1,13 @@
-public static int shortestWordDistance(String[] words, String word1, String word2) {
+/**
+ * Created by gzhou on 1/28/16.
+ */
+public class Solution {
+    public static void main(String[] args) {
+        String[] w = {"practice", "makes", "perfect", "coding", "makes"};
+        System.out.println(shortestWordDistance(w, "makes", "makes"));
+    }
+
+    public static int shortestWordDistance(String[] words, String word1, String word2) {
         int ret = Integer.MAX_VALUE;
         int index1 = -1;
         int index2 = -1;
@@ -20,3 +29,4 @@ public static int shortestWordDistance(String[] words, String word1, String word
         }
         return ret;
     }
+}
