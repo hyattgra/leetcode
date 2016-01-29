@@ -9,6 +9,7 @@ import java.util.List;
  */
 public class Solution {
 
+
     public List<String> generateAbbreviations(String word) {
         StringBuilder sb = new StringBuilder();
         List<String> result = new ArrayList<>();
