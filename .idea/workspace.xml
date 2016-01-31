@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd11936a-d1d4-484f-8c81-a950ba0bd50d" name="Default" comment="bfs">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SerializeAndDeserializeBinaryTree/Codec.java" />
+    <list default="true" id="dd11936a-d1d4-484f-8c81-a950ba0bd50d" name="Default" comment="scanner recur">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BurstBalloons/Solution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="leetcode.iws" />
@@ -113,15 +113,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Codec.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Codec.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SerializeAndDeserializeBinaryTree/Codec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13621262">
+            <state vertical-scroll-proportion="0.0">
               <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
               <folding>
                 <element signature="e#987#988#0" expanded="true" />
                 <element signature="e#1010#1011#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BurstBalloons/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3765227">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -170,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NumberOfDigitOne/Solution.java" />
         <option value="$PROJECT_DIR$/Candy/Solution.java" />
         <option value="$PROJECT_DIR$/PeekingIterator/PeekingIterator.java" />
         <option value="$PROJECT_DIR$/BestMeetingPoint/Solution.java" />
@@ -221,6 +230,7 @@
         <option value="$PROJECT_DIR$/LongestIncreasingPathInAMatrix/Solution.java" />
         <option value="$PROJECT_DIR$/BinaryTreeVerticalOrderTraversal/Solution.java" />
         <option value="$PROJECT_DIR$/SerializeAndDeserializeBinaryTree/Codec.java" />
+        <option value="$PROJECT_DIR$/BurstBalloons/Solution.java" />
       </list>
     </option>
   </component>
@@ -311,6 +321,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LargestRectangleInHistogram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BurstBalloons" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -514,12 +538,6 @@
       <option name="number" value="Default" />
       <updated>1445800941181</updated>
       <workItem from="1445800941913" duration="163000" />
-    </task>
-    <task id="LOCAL-00012" summary="dfs">
-      <created>1450159150618</created>
-      <option name="number" value="00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1450159150618</updated>
     </task>
     <task id="LOCAL-00013" summary="good recur">
       <created>1450163963088</created>
@@ -809,7 +827,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454266629238</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="scanner recur">
+      <created>1454274011154</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1454274011154</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -860,7 +884,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="what" />
     <MESSAGE value="amz" />
     <MESSAGE value="good recur" />
     <MESSAGE value="LargestRectangleInHistogram" />
@@ -885,7 +908,8 @@
     <MESSAGE value="alike" />
     <MESSAGE value="re" />
     <MESSAGE value="bfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="bfs" />
+    <MESSAGE value="scanner recur" />
+    <option name="LAST_COMMIT_MESSAGE" value="scanner recur" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -897,13 +921,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LongestIncreasingSubsequence/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53156143">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RangeSumQueryImmutable/NumArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1301,12 +1318,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SerializeAndDeserializeBinaryTree/Codec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13621262">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding>
             <element signature="e#987#988#0" expanded="true" />
             <element signature="e#1010#1011#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BurstBalloons/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3765227">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
