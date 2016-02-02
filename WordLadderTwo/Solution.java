@@ -1,22 +1,16 @@
-package WordLadder;
+package WordLadderTwo;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+import java.util.Set;
 
 /**
- * Created by Alan on 11/7/14.
+ * Created by Alan on 2/2/2016.
  */
 public class Solution {
-    public static void main(String[] args) {
 
-        String start = "hit";
-        String end = "cog";
-        Set<String> dict = new HashSet<String>(Arrays.asList("a", "b", "c"));
-        System.out.println(gene("a", "c", dict));
-    }
-
-
-    public static int gene(String beginWord, String endWord, Set<String> wordList) {
-
+    public List<List<String>> findLadders(String beginWord, String endWord, Set<String> wordList) {
         if (wordList.size() == 0) {
             return 0;
         }
@@ -50,5 +44,4 @@ public class Solution {
         }
         return 0;
     }
-
 }
