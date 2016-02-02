@@ -11,11 +11,11 @@ public class Solution {
         String start = "hit";
         String end = "cog";
         Set<String> dict = new HashSet<String>(Arrays.asList("a", "b", "c"));
-        System.out.println(gene("a", "c", dict, new HashSet<String>()));
+        System.out.println(gene("a", "c", dict));
     }
 
 
-    public static int gene(String start, String end, Set<String> dict, HashSet<String> doneWord) {
+    public static int gene(String start, String end, Set<String> dict) {
 
         if (dict.size() == 0) {
             return 0;
