@@ -9,39 +9,19 @@ import java.util.Set;
 public class Solution {
 
     public static void main(String[] args) {
-//        Set<String> dict = new HashSet<>();
-//        dict.add("leet");
-//        dict.add("code");
-//
-//        System.out.print(wordBreak("leetcode", dict));
 
     }
 
-    public static boolean wordBreak(String s, Set<String> dict) {
-        boolean[] dp = new boolean[s.length() + 1];
-        dp[0] = true;
+    public static boolean wordBreak(String s, Set<String> wordDict) {
+        boolean[] dp = new boolean[s.length()];
         for (int i = 0; i < s.length(); i++) {
-            if (!dp[i]) {
-                continue;
-            }
-            for (String ss : dict) {
-                int len = ss.length();
-                int end = i + len;
-
-                if (end > s.length()) {
-                    continue;
+            for (int j = i; j >= 0; j--) {
+                if (wordDict.contains(s.substring(j, i + 1)) && (j == 0 || dp[j - 1])) {
+                    dp[i] = true;
+                    break;
                 }
-
-                if (dp[end]) {
-                    continue;
-                }
-
-                if (s.substring(i, end).equals(ss)) {
-                    dp[end] = true;
-                }
-
             }
         }
-        return dp[s.length()];
+        return dp[s.length() - 1];
     }
 }
