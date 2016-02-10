@@ -22,7 +22,6 @@ public class Trie {
         for (int i = 0; i < word.length(); i++) {
             if(cur.child[word.charAt(i)-'a'] == null){
                 cur.child[word.charAt(i)-'a'] = new TrieNode(word.charAt(i));
-                cur = cur.child[word.charAt(i)-'a'];
             }
             cur = cur.child[word.charAt(i)-'a'];
         }
