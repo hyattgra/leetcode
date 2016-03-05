@@ -1,4 +1,11 @@
-public static void main(String[] args) {
+package RemoveDuplicateLetters;
+
+import java.util.Stack;
+
+public class Solution {
+
+
+    public static void main(String[] args) {
         String s = "ASD";
 
         Stack<Character> stack = new Stack<Character>();
@@ -29,6 +36,7 @@ public static void main(String[] args) {
             sb.append(stack.pop());
         }
 
-        return sb.reverse().toString();
+        //return sb.reverse().toString();
 
     }
+}

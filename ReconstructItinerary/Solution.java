@@ -1,4 +1,12 @@
-public List<String> findItinerary(String[][] tickets) {
+package ReconstructItinerary;
+
+import java.util.*;
+
+
+public class Solution {
+
+
+    public List<String> findItinerary(String[][] tickets) {
         Map<String, List<String>> map = new HashMap<>();
         for (String[] ticket : tickets) {
             List<String> arrivals = map.get(ticket[0]);
@@ -14,7 +22,7 @@ public List<String> findItinerary(String[][] tickets) {
         }
 
         List<String> ret = new ArrayList<>();
-        canReach("JFK", map, ret, tickets.length+1);
+        canReach("JFK", map, ret, tickets.length + 1);
         return ret;
     }
 
@@ -24,18 +32,19 @@ public List<String> findItinerary(String[][] tickets) {
             return true;
         }
 
-        if(!map.containsKey(stop) || map.get(stop).isEmpty()){
+        if (!map.containsKey(stop) || map.get(stop).isEmpty()) {
             return false;
         }
 
         List<String> arrivals = map.get(stop);
-        for(int i=0;i<arrivals.size();i++){
+        for (int i = 0; i < arrivals.size(); i++) {
             String arr = map.get(stop).remove(i);
-            if(canReach(arr, map, ret, stops)){
+            if (canReach(arr, map, ret, stops)) {
                 return true;
             }
-            ret.remove(ret.size()-1);
+            ret.remove(ret.size() - 1);
             map.get(stop).add(i, arr);
         }
         return false;
     }
+}
