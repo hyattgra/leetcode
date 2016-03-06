@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd11936a-d1d4-484f-8c81-a950ba0bd50d" name="Default" comment="re">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WordLadderII/Solution.java" />
+    <list default="true" id="dd11936a-d1d4-484f-8c81-a950ba0bd50d" name="Default" comment="bfs+dfs">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UniqueWordAbbreviation/ValidWordAbbr.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="leetcode.iws" />
@@ -26,14 +26,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WordLadderII/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.039823">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
               <folding>
                 <element signature="e#444#458#0" expanded="true" />
-                <element signature="method#generateNeighbors#0;class#Solution#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidWordAbbr.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UniqueWordAbbreviation/ValidWordAbbr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48672566">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PaintHouseTwo/Solution.java" />
-        <option value="$PROJECT_DIR$/ZigzagIterator/ZigzagIterator.java" />
         <option value="$PROJECT_DIR$/LongestIncreasingSubsequence/Solution.java" />
         <option value="$PROJECT_DIR$/RemoveInvalidParentheses/Solution.java" />
         <option value="$PROJECT_DIR$/RangeSumQueryImmutable/NumArray.java" />
@@ -134,6 +143,8 @@
         <option value="$PROJECT_DIR$/LargestBSTSubtree/Solution.java" />
         <option value="$PROJECT_DIR$/WiggleSortII/Solution.java" />
         <option value="$PROJECT_DIR$/WordLadderII/Solution.java" />
+        <option value="$PROJECT_DIR$/UniqueWordAbbreviation/solution.java" />
+        <option value="$PROJECT_DIR$/UniqueWordAbbreviation/ValidWordAbbr.java" />
       </list>
     </option>
   </component>
@@ -247,6 +258,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WiggleSort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UniqueWordAbbreviation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -433,12 +458,6 @@
       <option name="number" value="Default" />
       <updated>1445800941181</updated>
       <workItem from="1445800941913" duration="163000" />
-    </task>
-    <task id="LOCAL-00029" summary="reverse all array and then reverse each word">
-      <created>1451582116919</created>
-      <option name="number" value="00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1451582116919</updated>
     </task>
     <task id="LOCAL-00030" summary="LCA">
       <created>1451584330065</created>
@@ -728,7 +747,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457286222196</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="bfs+dfs">
+      <created>1457290646258</created>
+      <option name="number" value="00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1457290646258</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -747,7 +772,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3340471" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15738758" sideWeight="0.49779248" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31401765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18763797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -779,7 +804,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="good recur" />
     <MESSAGE value="LargestRectangleInHistogram" />
     <MESSAGE value="de" />
     <MESSAGE value="backtracking" />
@@ -804,7 +828,8 @@
     <MESSAGE value="dp" />
     <MESSAGE value="bfs" />
     <MESSAGE value="re" />
-    <option name="LAST_COMMIT_MESSAGE" value="re" />
+    <MESSAGE value="bfs+dfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="bfs+dfs" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -818,13 +843,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NextPermutation/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FindPeakElement/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1102,13 +1120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Download/GeSums.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LargestRectangleInHistogram/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1178,6 +1189,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/Download/GeSums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6858407">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WordLadder/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1188,11 +1207,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WordLadderII/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.039823">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
           <folding>
             <element signature="e#444#458#0" expanded="true" />
-            <element signature="method#generateNeighbors#0;class#Solution#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniqueWordAbbreviation/ValidWordAbbr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48672566">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
