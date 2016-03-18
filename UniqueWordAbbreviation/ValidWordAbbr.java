@@ -3,9 +3,7 @@ package UniqueWordAbbreviation;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by Alan on 3/6/2016.
- */
+
 public class ValidWordAbbr {
 
     Map<String, String> map;
