@@ -25,11 +25,11 @@ public class Solution {
         List<Integer> tmp = new ArrayList<Integer>();
         Arrays.sort(nums);
         boolean[] visited = new boolean[nums.length];
-        per(nums, 0, tmp, ret, visited);
+        per(nums, tmp, ret, visited);
         return ret;
     }
 
-    public static void per(int[] nums, int start, List<Integer> tmp, List<List<Integer>> ret, boolean[] visited) {
+    public static void per(int[] nums, List<Integer> tmp, List<List<Integer>> ret, boolean[] visited) {
         if (tmp.size() == nums.length) {
             ret.add(new ArrayList<Integer>(tmp));
         }
@@ -42,7 +42,7 @@ public class Solution {
             } else{
                 tmp.add(nums[i]);
                 visited[i] = true;
-                per(nums, start + 1, tmp, ret, visited);
+                per(nums, tmp, ret, visited);
                 tmp.remove(tmp.size() - 1);
                 visited[i] = false;
             }
