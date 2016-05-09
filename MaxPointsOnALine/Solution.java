@@ -40,6 +40,7 @@ public class Solution {
                 ret = Integer.max(ret, map.get(k) + samePoint);
             }
             ret = Integer.max(ret, samxX + 1);
+
         }
         return ret;
     }
