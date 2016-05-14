@@ -70,6 +70,7 @@ public class LRUCache {
         Node node = map.get(key);
         if (node == null) {
             node = new Node(key, value);
+
             map.put(key, node);
         } else {
             node.val = value;
