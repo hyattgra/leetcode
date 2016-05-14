@@ -7,7 +7,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        System.out.println(isNumber("3"));
+        System.out.println();
     }
 
     public boolean isNumber(String s) {
