@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd11936a-d1d4-484f-8c81-a950ba0bd50d" name="Default" comment="re">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ContainsDuplicateThree/Solution.java" />
+    <list default="true" id="dd11936a-d1d4-484f-8c81-a950ba0bd50d" name="Default" comment="treeset">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ContainsDuplicateThree/Solution.java" afterPath="$PROJECT_DIR$/ContainsDuplicateThree/Solution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="leetcode.iws" />
@@ -111,8 +111,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ContainsDuplicateThree/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11061947">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.48672566">
+              <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -730,12 +730,6 @@
       <updated>1445800941181</updated>
       <workItem from="1445800941913" duration="163000" />
     </task>
-    <task id="LOCAL-00056" summary="math">
-      <created>1454202989355</created>
-      <option name="number" value="00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1454202989355</updated>
-    </task>
     <task id="LOCAL-00057" summary="dfs">
       <created>1454218627037</created>
       <option name="number" value="00057" />
@@ -1024,7 +1018,13 @@
       <option name="project" value="LOCAL" />
       <updated>1463342495187</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="treeset">
+      <created>1463343572346</created>
+      <option name="number" value="00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1463343572346</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1075,7 +1075,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reverse all array and then reverse each word" />
     <MESSAGE value="LCA" />
     <MESSAGE value="hash value" />
     <MESSAGE value="union-find" />
@@ -1100,7 +1099,8 @@
     <MESSAGE value="two pointers" />
     <MESSAGE value="stringbuilder" />
     <MESSAGE value="re" />
-    <option name="LAST_COMMIT_MESSAGE" value="re" />
+    <MESSAGE value="treeset" />
+    <option name="LAST_COMMIT_MESSAGE" value="treeset" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1517,8 +1517,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ContainsDuplicateThree/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11061947">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.48672566">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
           <folding />
         </state>
       </provider>

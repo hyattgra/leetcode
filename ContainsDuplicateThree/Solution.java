@@ -16,11 +16,11 @@ public class Solution {
 
         for (int i = 0; i < nums.length; i++) {
             int val = nums[i];
-            if (set.floor(val) != null && set.floor(val) + t > val) {
+            if (set.floor(val) != null && set.floor(val) + t >= val) {
                 return true;
             }
 
-            if (set.ceiling(val) != null && set.ceiling(val) - t < val) {
+            if (set.ceiling(val) != null && set.ceiling(val) - t <= val) {
                 return true;
             }
 
