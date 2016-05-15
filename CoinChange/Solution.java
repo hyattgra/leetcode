@@ -11,25 +11,18 @@ import java.util.List;
 public class Solution {
     public int coinChange(int[] coins, int amount) {
 
-        if (coins == null || coins.length == 0 || amount <= 0)
-            return 0;
-
-        int[] dp = new int[amount + 1];
-        Arrays.fill(dp, Integer.MAX_VALUE);
-        dp[0] = 0;
+        int dp[] = new int[amount + 1];
 
         for (int i = 1; i <= amount; i++) {
-            for (Integer coin : coins) {
-                if (coin <= i && dp[i - coin] != Integer.MAX_VALUE) {
-                    dp[i] = Math.min(dp[i], 1 + dp[i - coin]);
-                }
-            }
+            dp[i] = Integer.MAX_VALUE;
         }
 
-        if (dp[amount] == Integer.MAX_VALUE) {
-            return -1;
+        for (int i = 0; i <= amount; i++) {
+            for (int j = 0; j < coins.length; j++) {
+                if (i + coins[j] <= amount)
+                    dp[i + coins[j]] = Math.min(dp[i + coins[j]], dp[i] + 1);
+            }
         }
- 
-        return dp[amount];
+        return dp[amount] == Integer.MAX_VALUE ? -1 : dp[amount];
     }
 }
